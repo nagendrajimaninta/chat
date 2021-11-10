@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>For in loop</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+      const numbers=[1,2,3,4,5,6];
+      let txt="";
+      for(let i in numbers){
+        txt+=numbers[i]+"<br>";
+      } 
+    document.getElementById("demo").innerHTML=txt;
+    </script>
+</body>
+</html>

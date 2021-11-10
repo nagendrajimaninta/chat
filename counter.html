@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       const h1=document.querySelector('h1');
+       const inc=document.querySelector('button');
+       inc.addEventListener("click",function (){
+           h1.textContent=parseInt(h1.textContent,10)+1;
+       });
+   </script> 
+   <h1>0</h1>
+   <button>Inc</button>
+</body>
+</html>
